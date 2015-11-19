@@ -1,0 +1,254 @@
+img {
+  max-width: 100%; }
+
+body {
+  line-height: 1.5; }
+
+p {
+  margin: 1em 0;
+  /*16px*/ }
+
+h1 {
+  font: 500 3.125em Oswald, Helvetica, sans-serif;
+  /*50px*/
+  line-height: 0.94em;
+  /*47px*/
+  text-transform: uppercase;
+  margin-top: 0.9em;
+  /*45px*/ }
+
+h2 {
+  font: 100 30px Oswald, Helvetica, sans-serif;
+  color: #CF7806; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+.container {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+/*============ TOP BAR ==========*/
+.bar-top {
+  background-color: #6B6460;
+  height: 3.75em;
+  /*60px*/ }
+
+.nav {
+  overflow: hidden; }
+
+.logo {
+  width: 20em;
+  /*320px*/
+  margin: 0 auto;
+  padding-top: 0.5em;
+  /*8px*/ }
+
+.menu {
+  /*padding-left: .9375em; 15px*/
+  width: 100%;
+  margin: 0 auto;
+  background-color: #6B6460;
+  height: 3.75em;
+  /*60px*/
+  float: right;
+  /*<--------------TURN THIS OFF, BACKGROUND COLOR DISAPPEARS------<*/ }
+  .menu li {
+    display: inline-block;
+    padding: 0 0.5em;
+    /*8px*/ }
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font: 100 1.125em Oswald, Helvetica, sans-serif;
+      /*18px*/
+      text-transform: uppercase;
+      line-height: 3.75em;
+      /*60px*/ }
+    .menu li:hover {
+      background-color: black; }
+
+/*============ CONTENT ==========*/
+.article {
+  padding-left: 0.3125em;
+  padding-right: 0.3125em; }
+  .article .header {
+    background-color: white;
+    padding-top: 1.5em; }
+    .article .header p {
+      font: 100 0.9375em Oswald, Helvetica, sans-serif;
+      margin: 0.13333333333333em;
+      /*2px*/ }
+  .article .content {
+    background-color: white; }
+    .article .content p {
+      font: 100 0.9375em Georgia, serif;
+      /*15px*/
+      line-height: 1.35294117647059em; }
+    .article .content a {
+      text-decoration: none;
+      color: gray; }
+      .article .content a:hover {
+        color: purple; }
+    .article .content blockquote {
+      margin: 1.47058823529412em 0 0 2.94117647058824em;
+      /*25px 0 0 50pxpx*/
+      overflow: hidden; }
+      .article .content blockquote p {
+        font: 100 1.0625em Georgia, serif;
+        /*17px*/
+        font-style: italic;
+        line-height: 1.35294117647059em;
+        /*23px*/ }
+      .article .content blockquote a {
+        text-decoration: none;
+        font: 100 1.0625em Oswald, Helvetica, sans-serif;
+        /*17px*/
+        color: black;
+        margin-top: 0;
+        margin-bottom: 1.47058823529412em;
+        margin-right: 1.47058823529412em;
+        padding: 0;
+        float: right; }
+    .article .content figure {
+      width: auto;
+      margin: 0 auto; }
+      .article .content figure figcaption {
+        text-decoration: none;
+        color: black;
+        font: 100 20px Oswald, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: right; }
+
+/*============ RELATED ==========*/
+.related {
+  background-color: white;
+  margin-top: 1.25em;
+  /*20px*/
+  margin-bottom: 3.125em;
+  /*50px*/
+  margin-left: 0.29411764705882em;
+  /*5px*/ }
+
+.linkset a {
+  text-decoration: none;
+  color: black; }
+
+.linkset li {
+  font: 100 17px Georgia, serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  list-style-type: square;
+  margin: 0 0 0 18px; }
+
+/*============ FOOTER ==========*/
+.footer {
+  background-color: white;
+  overflow: hidden; }
+  .footer .byline {
+    float: left; }
+    .footer .byline img {
+      height: 6.25em;
+      /*100px*/
+      width: 6.25em;
+      /*100px*/
+      border-radius: 100px;
+      margin: 1.25em 1.25em 0;
+      /*20px*/ }
+    .footer .byline figcaption {
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      font: 100 2.05882352941176em Oswald, Helvetica, sans-serif;
+      /*35px*/ }
+    .footer .byline a {
+      text-decoration: none;
+      color: black; }
+  .footer .share {
+    font: 100 1.29411764705882em Oswald, Helvetica, sans-serif;
+    /*22px*/
+    text-align: center;
+    border-top: 0.05882352941176em;
+    /*1px*/
+    border-color: black; }
+    .footer .share p {
+      margin-bottom: 0.5em; }
+    .footer .share li {
+      display: inline-block;
+      padding: 0 0.4em;
+      /*8px*/
+      margin: 0 0.3em; }
+
+.icon {
+  height: 1.63636363636364em;
+  /*36px*/
+  width: 1.63636363636364em; }
+
+.tw {
+  background-color: #399CBD;
+  padding: 15px;
+  border-radius: 50px; }
+
+.fb {
+  background-color: #3436BA;
+  padding: 15px;
+  border-radius: 50px; }
+
+.gg {
+  background-color: #ED4545;
+  padding: 15px;
+  border-radius: 50px; }
+
+/*============ COMMENTS ==========*/
+.comments {
+  background-color: black;
+  padding-top: 70px; }
+
+.comments header button {
+  height: 65px;
+  width: 270px;
+  background-color: #CF7806;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font: 100 35px Oswald, Helvetica, sans-serif;
+  text-decoration: none; }
+
+.comment-body button {
+  height: 50px;
+  width: 130px;
+  background-color: white;
+  border: 0;
+  border-radius: 13px;
+  color: black;
+  font: 100 25px Oswald, Helvetica, sans-serif;
+  text-decoration: none; }
+
+.commentors {
+  color: gray;
+  font-family: Georgia; }
+
+.commentors h4 {
+  font: 100 35px Oswald, Helvetica, sans-serif; }
+
+/*============ BOTTOM BAR ==========*/
+.bar-bottom {
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 0.29411764705882em;
+  /*5px*/ }
+
+.about p {
+  font: 100 17px Georgia, serif; }
+
+.connect li {
+  padding: 0 15px;
+  margin: 0 auto;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
