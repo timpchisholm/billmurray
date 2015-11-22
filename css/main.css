@@ -57,7 +57,8 @@ em {
   height: 3.75em;
   /*60px*/
   float: right;
-  /*<--------------TURN THIS OFF, BACKGROUND COLOR DISAPPEARS------<*/ }
+  /*<--------------TURN THIS OFF, BACKGROUND COLOR DISAPPEARS------<*/
+  margin: 0 auto; }
   .menu li {
     display: inline-block;
     padding: 0 0.5em;
