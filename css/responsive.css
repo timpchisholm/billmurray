@@ -1,8 +1,12 @@
-@media (min-width: 640px) {
+@media (min-width: 700px) {
   /*============ TOP BAR ==========*/
+  .nav {
+    height: 4em; }
+
   .logo {
-    padding-left: 0.9375em;
-    /*15px*/
+    padding-left: 1em;
+    padding-top: 0;
+    line-height: 4;
     float: left; }
 
   .menu-right {
@@ -13,6 +17,8 @@
     overflow: hidden;
     background: none;
     padding-left: 0; }
+    .menu a {
+      padding-bottom: 1em; }
 
   /*============ CONTENT ==========*/
   .article .header {
@@ -76,13 +82,13 @@
     background-color: #ED4545;
     padding: 15px;
     border-radius: 50px; } }
-@media (min-width: 640px) and (min-width: 960px) {
+@media (min-width: 700px) and (min-width: 960px) {
   .main {
     overflow: hidden; }
 
   /*============ TOP BAR ==========*/
   .menu li {
-    padding: 0 0.9375em;
+    padding: 0 1em;
     /*15px*/ }
 
   /*============ CONTENT ==========*/
@@ -119,7 +125,7 @@
     background-color: #ED4545;
     padding: 15px;
     border-radius: 50px; } }
-@media (min-width: 640px) {
+@media (min-width: 700px) {
   /*============ BOTTOM BAR ==========*/
   .bar-bottom {
     background-color: white;
