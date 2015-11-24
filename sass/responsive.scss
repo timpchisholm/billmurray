@@ -37,77 +37,18 @@
 			font-size: 1.0625em; /*17px*/
  			margin: 0.11764705882353em;
 		}
-}
+	}
 
 /*============ FOOTER ==========*/
 
-.footer {
-	background-color: white;
-	overflow: hidden;
-
-	.byline {
-		float: left;
-		img {
-			height: 12.5em; /*200px*/
-			width: 12.5em; /*200px*/
-			border-radius: 100px;
-			margin: 1.25em 1.25em 0; /*20px*/
+	.footer {
+		padding: 0 1em;
+		.byline img {
+			height: 13em;
+			width: 13em;	
 		}
-
-		figcaption {
-			text-decoration: none;
-			color: black;
-			text-align: center;
-			font: 100 2.5em Oswald, Helvetica, sans-serif; /*40px*/
-		}
-
-		a {
-			text-decoration: none;
-			color: black;
-		}
-	}
-
-	.share {
-		font: 100 1.875em Oswald, Helvetica, sans-serif; /*30px*/
-		text-align: center;
-
-		p {
-			margin-top: 1.5625em;
-			margin-bottom: 0.5em;
-		}
-
-		li {
-			display: inline-block;
-			padding: 0.5em 0.5em; 
-			margin: 0 0.3em;
-		}	
 	}	
-
 }
-
-.icon {
-	height: 3.125em; /*50px*/
-	width: 3.125em;
-}
-
-.tw {
-	background-color: #399CBD;
-	padding: 15px;
-	border-radius: 50px;
-}
-
-.fb {
-	background-color: #3436BA;
-	padding: 15px;
-	border-radius: 50px;
-}
-
-.gg {
-	background-color: #ED4545;
-	padding: 15px;
-	border-radius: 50px;
-}
-
 
 
 
@@ -139,72 +80,61 @@
 	}
 
 /*============ FOOTER ==========*/
+
 	.footer {
 		width: 25%;
 		float: right;
-
 		.byline { 
+			float: none;
 			img {
-				height: 210px;
-				width: 210px;	
+				text-align: center;
 			}
-		}	
+		}
+
+
+	.share li {
+		display: block;
+		margin: 0.5em auto;
+
 	}
 
 	.icon {
-		height: 80px;
-		width: 80px;
-		margin: 20px auto;
+		height: 3em;
+		width: 3em;
+		margin: 0 auto;
+		line-height: 3em;
+		img {
+			height: 80%;
+		}
 	}
 
-	.tw {
-		background-color: #399CBD;
-		padding: 15px;
-		border-radius: 50px;
-	}
-
-	.fb {
-		background-color: #3436BA;
-		padding: 15px;
-		border-radius: 50px;
-	}
-
-	.gg {
-		background-color: #ED4545;
-		padding: 15px;
-		border-radius: 50px;
-	}
 }
+
+/*============ COMMENTS ==========*/
+	.comment {
+		overflow: hidden;
+		width: 75%;
+	}
+	.comment-body {
+		overflow: hidden;
+		width: 75%;
+	}
 
 /*============ BOTTOM BAR ==========*/
 
-.bar-bottom {
-	background-color: white;
-	margin-top: 80px;
-	overflow: hidden;
-}
+	.bar-bottom {
+		background-color: white;
+		margin-top: 80px;
+		overflow: hidden;
+		.about {
+			width: 50%;
+			float: left;
+		}
+		.socialize {
+			width: 50%;
+			float: right;
+			text-align: right;
+		}
+	}
 
-.bar-bottom .about {
-	width: 720px;
-	float: left;
-}
-
-.about p {
-	font: 100 17px Georgia, serif;
-}
-
-.bar-bottom .socialize {
-	width: 240px;
-	float: right;
-}
-
-.socialize h2 {
-	text-align: right;
-}
-
-.connect li {
-	float: right;
-	padding: 0 15px;
-	display: inline-block;
-}
 }

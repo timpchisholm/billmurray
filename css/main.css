@@ -3,7 +3,9 @@ body {
   color: #222222;
   font-size: 1em;
   /* 16px */
-  line-height: 1.5; }
+  line-height: 1.5;
+  max-width: 1400px;
+  margin: 0 auto; }
 
 img {
   max-width: 100%; }
@@ -238,17 +240,13 @@ em {
 /*============ BOTTOM BAR ==========*/
 .bar-bottom {
   background-color: #e1e0e2;
-  padding-left: 1.3em; }
-
-.about p {
-  font: 100 1em Georgia, serif; }
+  padding: 1em; }
 
 .connect li {
   display: inline-block; }
-
-.connect li a {
-  font-family: Socialico;
-  font-size: 3em;
-  color: #D5664D; }
+  .connect li a {
+    font-family: Socialico;
+    font-size: 3em;
+    color: #D5664D; }
 
 /*# sourceMappingURL=main.css.map */
