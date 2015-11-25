@@ -55,9 +55,8 @@
     width: 25%;
     float: right; }
     .footer .byline {
-      float: none; }
-      .footer .byline img {
-        text-align: center; }
+      float: none;
+      text-align: center; }
     .footer .share li {
       display: block;
       margin: 0.5em auto; }
